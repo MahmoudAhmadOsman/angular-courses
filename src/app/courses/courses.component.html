@@ -10,7 +10,10 @@
           alt="Card image cap"
         />
         <div class="card-body">
-          <h5 class="card-title text-info">{{course.name}}</h5>
+          <h5 class="card-title text-info">
+            {{course.name}}
+            <small class="badge badge-info"># {{i + 1}}</small>
+          </h5>
           <p class="card-text">
             {{course.description}}
           </p>
