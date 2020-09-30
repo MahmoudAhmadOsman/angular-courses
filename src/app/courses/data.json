@@ -1,0 +1,56 @@
+[{
+    "id": 1,
+    "name": "Angular",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "120.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?code",
+    "quantity": 21
+  },
+  {
+    "id": 2,
+    "name": "React",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "99.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?code",
+    "quantity": 45
+  },
+  {
+    "id": 3,
+    "name": "Java",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "279.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?code",
+    "quantity": 78
+  },
+  {
+    "id": 4,
+    "name": "JavaScript",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "79.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?code",
+    "quantity": 1242
+  }, {
+    "id": 4,
+    "name": "HTML5/CSS3",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "39.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?html",
+    "quantity": 124
+  },
+  {
+    "id": 4,
+    "name": "Bootstrap",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "29.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?code",
+    "quantity": 5
+  }, {
+    "id": 5,
+    "name": "Node JS",
+    "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
+    "price": "52.00",
+    "imageUrl": "https://source.unsplash.com/1600x900/?code",
+    "quantity": 5
+  }
+
+]

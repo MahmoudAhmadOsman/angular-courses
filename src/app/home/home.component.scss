@@ -1,0 +1,129 @@
+.breaking-news {
+  position: relative;
+
+  header {
+    position: relative;
+    background-color: #ed1c24;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    min-height: 50px;
+
+    img {
+      float: left;
+      max-width: 80px;
+      min-height: 50px;
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      top: 0;
+    }
+  }
+
+  .news-header {
+    position: absolute;
+
+    h1 {
+      font-size: 55px;
+      color: #f00;
+      font-weight: bold;
+      margin-bottom: 160px;
+    }
+  }
+
+  section {
+    nav {
+      float: right;
+      width: 20%;
+      height: 100vh;
+
+      background: #f2f2f2;
+      padding: 20px;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media (max-width: 768px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+
+      ul {
+        li {
+          list-style-type: none;
+          padding: 0;
+          font-size: 11px;
+          display: inline;
+          margin-left: 5px;
+          font-weight: bold;
+
+          a {
+            color: #d00;
+          }
+        }
+      }
+    }
+
+    .aside {
+      position: relative;
+      display: block;
+      justify-content: center;
+
+      img {
+        max-width: 185px;
+        min-height: 75px;
+        opacity: 0.6;
+        display: block;
+        object-fit: cover;
+        position: relative;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .aside img {
+        min-width: 100%;
+        max-height: 100%;
+        display: block;
+        object-fit: cover;
+      }
+    }
+
+    article.news-rows {
+      h4.news-title {
+        color: #f00;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  // Post image
+  .post-image {
+    position: relative;
+
+    img {
+      max-width: 350px;
+      margin-top: 70px;
+    }
+  }
+
+
+}

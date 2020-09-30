@@ -1,0 +1,29 @@
+<section class="container">
+  <h1>{{title}}</h1>
+  <hr />
+  <div class="row">
+    <div class="col-md-3" *ngFor="let course of courses; let i =index">
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="{{course.imageUrl}}"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{course.name}}</h5>
+          <p class="card-text">
+            {{course.description}}
+          </p>
+          <p class="card-text"><b> Price: </b>${{course.price}}</p>
+          <p class="card-text"><b>Quantity:</b> {{course.quantity}}</p>
+          <a href="{{course.id}}" class="btn btn-primary btn-sm mr-2">
+            VIEW Course Details
+          </a>
+          <a href="{{course.id}}" class="btn btn-info btn-sm">
+            BUY
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

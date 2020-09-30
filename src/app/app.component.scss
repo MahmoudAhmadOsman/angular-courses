@@ -1,0 +1,67 @@
+.modal {
+  .modal-header {
+    position: relative;
+
+    img {
+      margin-left: -220px;
+      position: absolute;
+    }
+
+  }
+
+  button.close-modal-btn {
+    margin-top: -48px;
+    margin-right: 20px;
+  }
+
+
+  .modal-body {
+    position: relative;
+
+    .chatbot {
+      display: inline;
+
+      .fa-user {
+        margin-right: 5px;
+        font-size: 35px;
+      }
+
+      input[type=text] {
+        min-height: 40px;
+        min-width: 336px;
+        line-height: 40px;
+      }
+
+      //   div#y-form-chat {
+      //     position: relative;
+
+      //     input[type=file] {
+      //       max-height: 36px;
+      //       line-height: 16px;
+      //     }
+      //   }
+    }
+
+
+  }
+
+  .top-chat {
+    position: relative;
+    display: block;
+
+    .fa-chevron-down {
+      font-size: 8px;
+      color: #a19797;
+    }
+
+    ul {
+      display: block;
+    }
+
+    .fa-circle {
+      font-size: 7px;
+      margin-left: 1px;
+      color: #ccc;
+    }
+  }
+}
