@@ -34,7 +34,7 @@
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 142
   }, {
-    "id": 4,
+    "id": 5,
     "name": "HTML5/CSS3",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
     "wasPrice": 55.47,
@@ -43,7 +43,7 @@
     "quantity": 124
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Bootstrap",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
     "wasPrice": 45.65,
@@ -51,7 +51,7 @@
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 5
   }, {
-    "id": 5,
+    "id": 7,
     "name": "Node JS",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
     "wasPrice": 65.31,
