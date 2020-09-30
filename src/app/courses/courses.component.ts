@@ -8,11 +8,8 @@ import * as data from './data.json';
 })
 export class CoursesComponent implements OnInit {
   title = 'All Courses';
-
   //Now create a variable that holds the data from the json file
-
   courses: any = (data as any).default;
-
   constructor() {}
 
   ngOnInit(): void {
