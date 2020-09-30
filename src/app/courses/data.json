@@ -8,15 +8,15 @@
   },
   {
     "id": 2,
-    "name": "React",
+    "name": "React & Redux",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "99.00",
+    "price": "159.00",
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 45
   },
   {
     "id": 3,
-    "name": "Java",
+    "name": "Java & Spring Boot",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
     "price": "179.00",
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
