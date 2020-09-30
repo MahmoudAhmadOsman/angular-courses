@@ -1,6 +1,15 @@
 <section class="all_courses">
   <div class="container">
-    <h1 class="text-danger">{{title}}</h1>
+    <div class="d-flex justify-content-between">
+      <div class="text-danger">
+        <h1>{{title}}</h1>
+      </div>
+
+      <div class="text-danger d-none d-sm-block">
+        Total of <i class="text-info">{{courses.length }}</i> Courses
+      </div>
+    </div>
+
     <hr />
     <div class="row">
       <div
