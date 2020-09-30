@@ -2,7 +2,8 @@
     "id": 1,
     "name": "Angular",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "120.00",
+    "wasPrice": 145.00,
+    "price": 120.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 21
   },
@@ -10,7 +11,8 @@
     "id": 2,
     "name": "React & Redux",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "159.00",
+    "wasPrice": 195.00,
+    "price": 159.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 45
   },
@@ -18,7 +20,8 @@
     "id": 3,
     "name": "Java & Spring Boot",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "179.00",
+    "wasPrice": 245.00,
+    "price": 179.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 78
   },
@@ -26,14 +29,16 @@
     "id": 4,
     "name": "JavaScript",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "79.00",
+    "wasPrice": 95.00,
+    "price": 79.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
-    "quantity": 1242
+    "quantity": 142
   }, {
     "id": 4,
     "name": "HTML5/CSS3",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "39.00",
+    "wasPrice": 55.00,
+    "price": 39.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?html",
     "quantity": 124
   },
@@ -41,14 +46,16 @@
     "id": 4,
     "name": "Bootstrap",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "29.00",
+    "wasPrice": 45.00,
+    "price": 29.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 5
   }, {
     "id": 5,
     "name": "Node JS",
     "description": "Sint libero mollitia Sint libero mollitia Sint libero mollitia.",
-    "price": "52.00",
+    "wasPrice": 65.00,
+    "price": 52.00,
     "imageUrl": "https://source.unsplash.com/1600x900/?code",
     "quantity": 5
   }
