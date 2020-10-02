@@ -1,0 +1,20 @@
+[{
+  "id": 4,
+  "parent": 3,
+  "created": "2015-01-04",
+  "modified": "2015-01-04",
+  "content": "Check out this video",
+  "attachments": [{
+    "id": 1,
+    "file": "http://www.w3schools.com/html/mov_bbb.mp4",
+    "mime_type": "video/mp4"
+  }],
+  "creator": 4,
+  "fullname": "Todd Brown",
+  "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/public/defaults/user-icon.png",
+  "created_by_admin": false,
+  "created_by_current_user": false,
+  "upvote_count": 0,
+  "user_has_upvoted": false,
+  "is_new": true
+}]

@@ -1,0 +1,36 @@
+<section class="live_session">
+  <div class="container">
+    <h3>{{title}}</h3>
+    <hr />
+    <div class="row">
+      <div
+        class="col-md-3 col-sm-6 mb-2"
+        *ngFor="let session of sessions let i =index"
+      >
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/1600x900/?video"
+            alt="event image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              {{session.evtName}}
+            </h5>
+            <div class="card-text">
+              <p>{{session.rwHead3Desc}}</p>
+              <p><b>Start Date:</b> {{session.evtStartDate | date}}</p>
+            </div>
+
+            <div class="d-inline-flex">
+              <a href="{{session.id}}" class="btn btn-primary btn-sm mr-2"
+                >Live</a
+              >
+              <a href="{{session.id}}" class="btn btn-info btn-sm mr-2">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
