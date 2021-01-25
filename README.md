@@ -28,5 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ##_______________________________________________________________________
 
-Project demo link: [https://angular-courses-hazel.vercel.app) 
+Project demo link: [Angular-project](https://angular-courses-hazel.vercel.app)
+
+ 
 
