@@ -2,4 +2,11 @@
   .was-price {
     text-decoration: line-through;
   }
+ .card-body {
+    box-shadow: 8px 7px 9px #ccc;
+    -webkit-box-shadow: 8px 7px 9px #ccc;
+    -ms-box-shadow: 8px 7px 9px #ccc;
+    -moz-box-shadow: 8px 7px 9px #ccc;
+   
+  }
 }
